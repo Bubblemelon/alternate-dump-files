@@ -9,7 +9,7 @@ $ od -tx1 filename
 $ hd filename
 
 $ hexdump filename
-// hexdump displays/orders bytes depending the endianess of your machine
+// hexdump displays/orders bytes depending on the endianess of your machine
 ``` 
 The code in this repository called ["detect_endianess"](https://github.com/Bubblemelon/detect_endianess "Bubblemelon's Detect Endianess") can determine the endianess of your computer. 
 
