@@ -5,6 +5,7 @@ This program displays the content of a file to stdout that is similar to doing: 
 
 ```
 $ od -tx1 filename 
+
 $ hd filename
 
 $ hexdump filename
