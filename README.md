@@ -1,12 +1,12 @@
 # alternate-dump-files
 
 ## Description:
-This program displays the content of a file to stdout that is similar to doing: the following below. The difference is that the offset is in decimal and not in octal for all three of the above mentioned processes. 
+This program displays the content of a file to stdout that is similar to doing: the following below. The difference is that the offset is in decimal and not in octal for the last two of the mentioned processes. This program does the same as doing "hd filename". 
 
 ```
-$ od -tx1 filename 
-
 $ hd filename
+
+$ od -tx1 filename 
 
 $ hexdump filename
 // hexdump displays/orders bytes depending on the endianess of your machine
