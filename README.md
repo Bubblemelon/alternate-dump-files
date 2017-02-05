@@ -38,7 +38,7 @@ The left most column is in decimal:
 
 Look at aodf.c for comments on usage. 
 
-output.txt displays the output of  ``` $ ./aodf printcap ``` 
+I saved the output of  ``` $ ./aodf printcap ``` in a file called output.txt 
 
 testfile1.c is created to produce a program called " ./testfile1 " ; the output of this program is saved under the filed called " test ". The purpose of this file is to see whehter if aodf.c is correct.   
 
