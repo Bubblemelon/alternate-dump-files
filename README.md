@@ -1,9 +1,18 @@
 # alternate-dump-files
 
 ## Description:
-This program displays the content of a file to stdout that is similar to doing ```od -tx1 filename``` on the terminal. The difference is that the offset is in decimal and not in octal. 
+This program displays the content of a file to stdout that is similar to doing: the following below. The difference is that the offset is in decimal and not in octal for all three of the above mentioned processes. 
 
-The file titled "printcap" is generated automatically by printer configurations in "/etc". A description of this file can be found in the file "printcap".
+```
+$ od -tx1 filename 
+$ hd filename
+
+$ hexdump filename
+// hexdump displays/orders bytes depending the endianess of your machine
+``` 
+The code in this repository called ["detect_endianess"](https://github.com/Bubblemelon/detect_endianess "Bubblemelon's Detect Endianess") can determine the endianess of your computer. 
+
+The file titled "printcap" is generated automatically by printer configurations in "/etc". A description of this file can be found in the file "printcap". I used this file as a sample to run my program. 
 
 ### Program usage:
 
